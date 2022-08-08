@@ -75,7 +75,7 @@ app.get('/redirect', function(req, res) {
     
  
     app.listen(app.get('port'), function() {
-        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/acadalearning");
+        console.log("Node JS app is running at http://192.168.0.32:" + app.get('port') +"/acadalearning");
       })
     
 
